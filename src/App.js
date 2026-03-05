@@ -1,9 +1,12 @@
 import './App.css';
+import Body from './components/Body';
+import Head from './components/Head';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Youtube Clone</h1>
+    <div className="">
+      <Head/>
+      <Body/>
     </div>
   );
 }
